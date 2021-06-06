@@ -431,3 +431,24 @@ main {
     font-size: 1.2rem;
     color: #757575;
 }
+.card-body__cta {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    font-family: 'DM sans', 'sans-serif';
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    background-color: var(--off-white);
+    border: solid 2px #F7931A;
+    border-radius: 4px;
+    color: var(--black);
+}
+.card-body__cta span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    /* para alinear texto e icono */
+    vertical-align: text-bottom;
+}
