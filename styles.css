@@ -143,4 +143,46 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
-
+.main-tables__currency, .main-tables__comisions{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: 'Inter', 'sans-serif';
+}
+.main-tables__currency .currency-table__title {
+    margin-bottom: 14px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+    text-align: left;
+}
+.main-tables__comisions .comisions-table__title {
+    margin-bottom: 14px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+    text-align: left;
+}
+.currency-table__container, .comisions-table__container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.currency-table__container table, .comisions-table__container table {
+    width: 100%;
+    height: 100%;
+}
+.currency-table__container td, .comisions-table__container td {
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
