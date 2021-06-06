@@ -296,7 +296,8 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    /*agregamos un min height por si hay un overflow */
+    min-height: 150px;
     margin: 15px auto;
     padding: 15px;
     background-color: var(--black);
@@ -335,4 +336,21 @@ main {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 60vh;
+    text-align: center;
+    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
