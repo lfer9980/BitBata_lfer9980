@@ -29,6 +29,7 @@ Convencion que servira para agregar los estilos (especie de norma):
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', 'sans-serif';
+    scroll-behavior: smooth;
 }
 header {
     position: relative;
@@ -354,3 +355,31 @@ main {
     line-height: 2.6rem;
     color: var(--just-white);
 }
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans__title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plans__title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans__title p {
+    padding-top: 24px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
